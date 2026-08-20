@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>AI File Reader - 使用说明</title>
+  <title>AI File Reader - Help</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -43,56 +43,45 @@
   </style>
 </head>
 <body>
-  <h1>AI File Reader</h1>
-  <p>让网页端 AI 像 IDE 一样读取本地文件</p>
+  <h1 data-i18n="appName">AI File Reader</h1>
+  <p data-i18n="helpTagline">Let web-based AI chatbots read local files like an IDE.</p>
 
-  <h2>安装</h2>
+  <h2 data-i18n="install">Install</h2>
+  <div class="step" data-i18n-html="helpInstallStep1"><span class="step-num">1.</span> In Chrome, open <code>chrome://extensions</code>, enable Developer mode, click “Load unpacked,” and select the extension folder.</div>
+  <div class="step" data-i18n-html="helpInstallStep2"><span class="step-num">2.</span> (Optional) Install the native service: double-click <code>安装本地服务.bat</code> in the project root and paste the extension ID when prompted.</div>
+  <div class="step" data-i18n-html="helpInstallStep3"><span class="step-num">3.</span> Restart Chrome and open any supported AI site.</div>
 
-  <div class="step">
-    <span class="step-num">1.</span>在 Chrome 中加载扩展：打开 <code>chrome://extensions</code>，开启开发者模式，点击"加载已解压的扩展程序"，选择扩展目录
-  </div>
-  <div class="step">
-    <span class="step-num">2.</span>（可选）安装本地服务：双击项目根目录的 <code>安装本地服务.bat</code>，按提示粘贴扩展 ID 即可
-  </div>
-  <div class="step">
-    <span class="step-num">3.</span>重启 Chrome，打开任意支持的 AI 网站
-  </div>
+  <h2 data-i18n="usage">Usage</h2>
+  <p data-i18n-html="helpUsageIntro">A 📁 button appears in the bottom-right corner of the page (shortcut: <kbd>Ctrl+Shift+F</kbd>):</p>
+  <div class="step" data-i18n-html="helpFileTree"><span class="step-num">File tree</span>Click 📁 to open the sidebar, browse folders, and click a file to insert it into the chat input.</div>
+  <div class="step" data-i18n-html="helpAtCommand"><span class="step-num">@ command</span>Type <code>@filename</code> or <code>@foldername</code> in the chat input, then choose an item from the list.</div>
 
-  <h2>使用方法</h2>
+  <h2 data-i18n="twoModes">Two modes</h2>
+  <p data-i18n-html="helpNativeMode"><strong>Native service mode</strong> (recommended): fully automatic after installation. Requires Node.js.</p>
+  <p data-i18n-html="helpBrowserMode"><strong>Browser mode</strong>: no installation required. Open the sidebar and choose a folder. Authorization is required again after restarting the browser.</p>
 
-  <p>页面右下角会出现一个 📁 按钮（快捷键 <kbd>Ctrl+Shift+F</kbd>）：</p>
-
-  <div class="step">
-    <span class="step-num">文件树</span>点击 📁 打开侧边栏，浏览目录并点击文件插入到聊天框
-  </div>
-  <div class="step">
-    <span class="step-num">@ 指令</span>在聊天框输入 <code>@文件名</code> 或 <code>@文件夹名</code>，从下拉列表选择即可插入
-  </div>
-
-  <h2>两种模式</h2>
-
-  <p><strong>本地服务模式</strong>（推荐）：安装后全自动，打开网页即可用。需要 Node.js。</p>
-  <p><strong>浏览器模式</strong>：无需安装任何东西。打开侧边栏后点击「选择文件夹」授权即可。每次重启浏览器需重新授权。</p>
-
-  <h2>支持的网站</h2>
+  <h2 data-i18n="supportedSites">Supported sites</h2>
   <ul>
-    <li>通义千问 (chat.qwen.ai)</li>
+    <li data-i18n="qwenSite">Qwen (chat.qwen.ai)</li>
     <li>ChatGPT (chatgpt.com)</li>
     <li>Gemini (gemini.google.com)</li>
     <li>Claude (claude.ai)</li>
   </ul>
 
-  <h2>快捷键</h2>
+  <h2 data-i18n="keyboardShortcuts">Keyboard shortcuts</h2>
   <ul>
-    <li><kbd>Ctrl+Shift+F</kbd> — 打开/关闭文件面板</li>
-    <li><kbd>@</kbd> — 在聊天框中触发文件搜索</li>
-    <li><kbd>↑</kbd> <kbd>↓</kbd> — 在搜索结果中移动</li>
-    <li><kbd>Enter</kbd> 或 <kbd>Tab</kbd> — 选中文件</li>
-    <li><kbd>Esc</kbd> — 关闭搜索</li>
+    <li data-i18n-html="helpShortcutToggle"><kbd>Ctrl+Shift+F</kbd> — Open or close the file panel</li>
+    <li data-i18n-html="helpShortcutSearch"><kbd>@</kbd> — Start a file search in the chat input</li>
+    <li data-i18n-html="helpShortcutMove"><kbd>↑</kbd> <kbd>↓</kbd> — Move through search results</li>
+    <li data-i18n-html="helpShortcutSelect"><kbd>Enter</kbd> or <kbd>Tab</kbd> — Select a file</li>
+    <li data-i18n-html="helpShortcutClose"><kbd>Esc</kbd> — Close search</li>
   </ul>
 
-  <h2>卸载</h2>
-  <p>扩展：在 <code>chrome://extensions</code> 中移除</p>
-  <p>本地服务：双击 <code>卸载本地服务.bat</code></p>
+  <h2 data-i18n="uninstall">Uninstall</h2>
+  <p data-i18n-html="helpUninstallExtension">Extension: remove it from <code>chrome://extensions</code>.</p>
+  <p data-i18n-html="helpUninstallNative">Native service: double-click <code>卸载本地服务.bat</code>.</p>
+
+  <script src="lib/i18n.js"></script>
+  <script src="help.js"></script>
 </body>
 </html>

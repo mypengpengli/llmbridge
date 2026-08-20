@@ -1,0 +1,145 @@
+{
+  "appName": { "message": "AI File Reader" },
+  "appDescription": { "message": "Let web-based AI chatbots read local files like an IDE" },
+  "toggleFilePanel": { "message": "Toggle file panel" },
+  "connectionStatus": { "message": "Connection status" },
+  "checking": { "message": "Checking..." },
+  "supportedSites": { "message": "Supported sites" },
+  "qwenSite": { "message": "Qwen (chat.qwen.ai)" },
+  "popupOpenHint": { "message": "Open a supported site, then click 📁 in the bottom-right corner or press <kbd>Ctrl+Shift+F</kbd> to open the file panel." },
+  "help": { "message": "Help" },
+  "nativeConnected": { "message": "Native service connected" },
+  "workingDirectoryValue": {
+    "message": "Working directory: $DIR$",
+    "placeholders": { "dir": { "content": "$1" } }
+  },
+  "setWorkingDirectoryHint": { "message": "Set a working directory in the file panel" },
+  "browserMode": { "message": "Browser mode" },
+  "browserModeHint": { "message": "Choose a folder in the web page's file panel to get started" },
+  "notConnected": { "message": "Not connected" },
+  "notConnectedHint": { "message": "Install the native service or choose a folder in the web page's file panel" },
+  "filesChanged": { "message": "Files changed; index updated" },
+  "folderEmptyOrMissing": { "message": "Folder is empty or does not exist" },
+  "refresh": { "message": "Refresh" },
+  "close": { "message": "Close" },
+  "added": { "message": "Added" },
+  "clear": { "message": "Clear" },
+  "searchFiles": { "message": "Search files..." },
+  "switchDirectory": { "message": "Switch directory" },
+  "quickPrompts": { "message": "Quick prompts" },
+  "currentDirectoryStructure": { "message": "Current directory structure" },
+  "addQuickPrompt": { "message": "Add a reusable prompt..." },
+  "undo": { "message": "Undo" },
+  "undoneFromChat": { "message": "Removed from the chat input" },
+  "loading": { "message": "Loading..." },
+  "reauthorizeFolderValue": {
+    "message": "Reauthorize $FOLDER$",
+    "placeholders": { "folder": { "content": "$1" } }
+  },
+  "selectFolder": { "message": "Choose folder" },
+  "reauthorizationRequired": { "message": "Folder access must be authorized again" },
+  "nativeDisconnected": { "message": "Native service is not connected" },
+  "clickToRestoreAccess": { "message": "Click the button above to restore access" },
+  "installNativeHint": { "message": "Or install the native service for a smoother experience" },
+  "nativeService": { "message": "Native service" },
+  "browserApi": { "message": "Browser API" },
+  "rootDirectory": { "message": "Root directory" },
+  "errorValue": {
+    "message": "Error: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "loadFailed": { "message": "Failed to load" },
+  "emptyDirectory": { "message": "Empty directory" },
+  "uploadedFile": {
+    "message": "Uploaded $FILE$ ($SIZE$)",
+    "placeholders": {
+      "file": { "content": "$1" },
+      "size": { "content": "$2" }
+    }
+  },
+  "uploadFailed": {
+    "message": "Upload failed: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "insertedFile": {
+    "message": "Inserted $FILE$ ($SIZE$)",
+    "placeholders": {
+      "file": { "content": "$1" },
+      "size": { "content": "$2" }
+    }
+  },
+  "readFailed": {
+    "message": "Failed to read: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "recentlyUsed": { "message": "Recently used:" },
+  "switchWorkingDirectory": { "message": "Switch working directory" },
+  "switch": { "message": "Switch" },
+  "switchedTo": {
+    "message": "Switched to $DIR$",
+    "placeholders": { "dir": { "content": "$1" } }
+  },
+  "switchFailed": { "message": "Failed to switch directory" },
+  "switchFailedValue": {
+    "message": "Failed to switch directory: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "indexing": { "message": "Building index..." },
+  "noMatches": { "message": "No matches" },
+  "setWorkingDirectory": { "message": "Set working directory" },
+  "pathExample": { "message": "Example: D:\\projects\\my-app" },
+  "confirm": { "message": "Confirm" },
+  "setting": { "message": "Setting..." },
+  "setFailed": { "message": "Failed to set directory" },
+  "setWorkingDirectoryFirst": { "message": "Set a working directory first" },
+  "generating": { "message": "Generating..." },
+  "generateFailedValue": {
+    "message": "Generation failed: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "noInsertableFiles": { "message": "The current directory has no files to insert" },
+  "insertedDirectoryStructure": {
+    "message": "Inserted directory structure ($COUNT$ files)",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "directoryStructureIntro": { "message": "The current directory structure is:" },
+  "directoryStructureTruncated": { "message": "Note: the directory is large, so the structure above was truncated at the file-count limit." },
+  "currentDirectory": { "message": "Current directory" },
+  "defaultPromptAnalyze": { "message": "Analyze these files and identify potential issues" },
+  "defaultPromptExplain": { "message": "Explain the logic in this code" },
+  "defaultPromptRefactor": { "message": "Help me refactor this code" },
+  "insertedPrompt": { "message": "Prompt inserted" },
+  "noMatchingFiles": { "message": "No matching files" },
+  "searchByFilename": { "message": "Type a filename to search..." },
+  "entireFolder": { "message": "entire folder" },
+  "loadedFilesSummary": {
+    "message": "Loaded $LOADED$/$TOTAL$ files, $SIZE$ KB total",
+    "placeholders": {
+      "loaded": { "content": "$1" },
+      "total": { "content": "$2" },
+      "size": { "content": "$3" }
+    }
+  },
+  "helpPageTitle": { "message": "AI File Reader - Help" },
+  "helpTagline": { "message": "Let web-based AI chatbots read local files like an IDE." },
+  "install": { "message": "Install" },
+  "helpInstallStep1": { "message": "<span class=\"step-num\">1.</span> In Chrome, open <code>chrome://extensions</code>, enable Developer mode, click “Load unpacked,” and select the extension folder." },
+  "helpInstallStep2": { "message": "<span class=\"step-num\">2.</span> (Optional) Install the native service: double-click <code>安装本地服务.bat</code> in the project root and paste the extension ID when prompted." },
+  "helpInstallStep3": { "message": "<span class=\"step-num\">3.</span> Restart Chrome and open any supported AI site." },
+  "usage": { "message": "Usage" },
+  "helpUsageIntro": { "message": "A 📁 button appears in the bottom-right corner of the page (shortcut: <kbd>Ctrl+Shift+F</kbd>):" },
+  "helpFileTree": { "message": "<span class=\"step-num\">File tree</span>Click 📁 to open the sidebar, browse folders, and click a file to insert it into the chat input." },
+  "helpAtCommand": { "message": "<span class=\"step-num\">@ command</span>Type <code>@filename</code> or <code>@foldername</code> in the chat input, then choose an item from the list." },
+  "twoModes": { "message": "Two modes" },
+  "helpNativeMode": { "message": "<strong>Native service mode</strong> (recommended): fully automatic after installation. Requires Node.js." },
+  "helpBrowserMode": { "message": "<strong>Browser mode</strong>: no installation required. Open the sidebar and choose a folder. Authorization is required again after restarting the browser." },
+  "keyboardShortcuts": { "message": "Keyboard shortcuts" },
+  "helpShortcutToggle": { "message": "<kbd>Ctrl+Shift+F</kbd> — Open or close the file panel" },
+  "helpShortcutSearch": { "message": "<kbd>@</kbd> — Start a file search in the chat input" },
+  "helpShortcutMove": { "message": "<kbd>↑</kbd> <kbd>↓</kbd> — Move through search results" },
+  "helpShortcutSelect": { "message": "<kbd>Enter</kbd> or <kbd>Tab</kbd> — Select a file" },
+  "helpShortcutClose": { "message": "<kbd>Esc</kbd> — Close search" },
+  "uninstall": { "message": "Uninstall" },
+  "helpUninstallExtension": { "message": "Extension: remove it from <code>chrome://extensions</code>." },
+  "helpUninstallNative": { "message": "Native service: double-click <code>卸载本地服务.bat</code>." }
+}

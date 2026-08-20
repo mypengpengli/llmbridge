@@ -16,6 +16,11 @@ Let web-based AI chatbots (Qwen, ChatGPT, Gemini, Claude) read your local files 
 - **Status Indicator** — Green/yellow/red dot shows connection state at a glance
 - **Cross-tab Sync** — File index is shared between tabs, no redundant scanning
 - **Insert History** — See what you've added this session, undo with one click
+- **Automatic UI Language** — Uses the browser language: Chinese for Chinese browser locales, English for all other locales
+
+## Interface Language
+
+The extension automatically follows Chrome's interface language. Simplified and Traditional Chinese browser locales use their matching Chinese UI; every other browser locale falls back to English. The popup, file sidebar, `@` search, notifications, help page, extension name, and description are all localized—no manual setting is required.
 
 ## Two Modes
 

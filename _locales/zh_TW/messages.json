@@ -1,0 +1,145 @@
+{
+  "appName": { "message": "AI 檔案閱讀器" },
+  "appDescription": { "message": "讓網頁版 AI 像 IDE 一樣讀取本機檔案" },
+  "toggleFilePanel": { "message": "開啟或關閉檔案面板" },
+  "connectionStatus": { "message": "連線狀態" },
+  "checking": { "message": "偵測中..." },
+  "supportedSites": { "message": "支援的網站" },
+  "qwenSite": { "message": "通義千問 (chat.qwen.ai)" },
+  "popupOpenHint": { "message": "開啟支援的網站後，點擊右下角 📁 或按 <kbd>Ctrl+Shift+F</kbd> 開啟檔案面板。" },
+  "help": { "message": "使用說明" },
+  "nativeConnected": { "message": "本機服務已連線" },
+  "workingDirectoryValue": {
+    "message": "工作目錄：$DIR$",
+    "placeholders": { "dir": { "content": "$1" } }
+  },
+  "setWorkingDirectoryHint": { "message": "請在檔案面板中設定工作目錄" },
+  "browserMode": { "message": "瀏覽器模式" },
+  "browserModeHint": { "message": "在網頁檔案面板中選擇資料夾即可使用" },
+  "notConnected": { "message": "未連線" },
+  "notConnectedHint": { "message": "請安裝本機服務，或在網頁檔案面板中選擇資料夾" },
+  "filesChanged": { "message": "檔案已變更，索引已更新" },
+  "folderEmptyOrMissing": { "message": "資料夾為空或不存在" },
+  "refresh": { "message": "重新整理" },
+  "close": { "message": "關閉" },
+  "added": { "message": "已新增" },
+  "clear": { "message": "清除" },
+  "searchFiles": { "message": "搜尋檔案..." },
+  "switchDirectory": { "message": "切換目錄" },
+  "quickPrompts": { "message": "快速指令" },
+  "currentDirectoryStructure": { "message": "目前目錄結構" },
+  "addQuickPrompt": { "message": "新增常用指令..." },
+  "undo": { "message": "復原" },
+  "undoneFromChat": { "message": "已從聊天輸入框復原" },
+  "loading": { "message": "載入中..." },
+  "reauthorizeFolderValue": {
+    "message": "重新授權 $FOLDER$",
+    "placeholders": { "folder": { "content": "$1" } }
+  },
+  "selectFolder": { "message": "選擇資料夾" },
+  "reauthorizationRequired": { "message": "需要重新授權資料夾存取權" },
+  "nativeDisconnected": { "message": "本機服務未連線" },
+  "clickToRestoreAccess": { "message": "點擊上方按鈕恢復存取" },
+  "installNativeHint": { "message": "或安裝本機服務以獲得更順暢的體驗" },
+  "nativeService": { "message": "本機服務" },
+  "browserApi": { "message": "瀏覽器 API" },
+  "rootDirectory": { "message": "根目錄" },
+  "errorValue": {
+    "message": "錯誤：$ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "loadFailed": { "message": "載入失敗" },
+  "emptyDirectory": { "message": "空目錄" },
+  "uploadedFile": {
+    "message": "已上傳 $FILE$ ($SIZE$)",
+    "placeholders": {
+      "file": { "content": "$1" },
+      "size": { "content": "$2" }
+    }
+  },
+  "uploadFailed": {
+    "message": "上傳失敗：$ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "insertedFile": {
+    "message": "已插入 $FILE$ ($SIZE$)",
+    "placeholders": {
+      "file": { "content": "$1" },
+      "size": { "content": "$2" }
+    }
+  },
+  "readFailed": {
+    "message": "讀取失敗：$ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "recentlyUsed": { "message": "最近使用：" },
+  "switchWorkingDirectory": { "message": "切換工作目錄" },
+  "switch": { "message": "切換" },
+  "switchedTo": {
+    "message": "已切換至 $DIR$",
+    "placeholders": { "dir": { "content": "$1" } }
+  },
+  "switchFailed": { "message": "切換失敗" },
+  "switchFailedValue": {
+    "message": "切換失敗：$ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "indexing": { "message": "正在建立索引..." },
+  "noMatches": { "message": "沒有符合的結果" },
+  "setWorkingDirectory": { "message": "請設定工作目錄" },
+  "pathExample": { "message": "例如：D:\\projects\\my-app" },
+  "confirm": { "message": "確定" },
+  "setting": { "message": "設定中..." },
+  "setFailed": { "message": "設定失敗" },
+  "setWorkingDirectoryFirst": { "message": "請先設定工作目錄" },
+  "generating": { "message": "產生中..." },
+  "generateFailedValue": {
+    "message": "產生失敗：$ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "noInsertableFiles": { "message": "目前目錄沒有可插入的檔案" },
+  "insertedDirectoryStructure": {
+    "message": "已插入目錄結構（$COUNT$ 個檔案）",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "directoryStructureIntro": { "message": "目前目錄結構是：" },
+  "directoryStructureTruncated": { "message": "注意：目錄過大，以上結構已依檔案數量上限截斷。" },
+  "currentDirectory": { "message": "目前目錄" },
+  "defaultPromptAnalyze": { "message": "分析這些檔案並指出潛在問題" },
+  "defaultPromptExplain": { "message": "解釋這段程式碼的邏輯" },
+  "defaultPromptRefactor": { "message": "幫我重構這段程式碼" },
+  "insertedPrompt": { "message": "已插入指令" },
+  "noMatchingFiles": { "message": "找不到符合的檔案" },
+  "searchByFilename": { "message": "輸入檔名搜尋..." },
+  "entireFolder": { "message": "整個資料夾" },
+  "loadedFilesSummary": {
+    "message": "已載入 $LOADED$/$TOTAL$ 個檔案，共 $SIZE$ KB",
+    "placeholders": {
+      "loaded": { "content": "$1" },
+      "total": { "content": "$2" },
+      "size": { "content": "$3" }
+    }
+  },
+  "helpPageTitle": { "message": "AI 檔案閱讀器 - 使用說明" },
+  "helpTagline": { "message": "讓網頁版 AI 像 IDE 一樣讀取本機檔案。" },
+  "install": { "message": "安裝" },
+  "helpInstallStep1": { "message": "<span class=\"step-num\">1.</span>在 Chrome 中開啟 <code>chrome://extensions</code>，啟用開發人員模式，點擊「載入未封裝項目」，並選擇擴充功能目錄。" },
+  "helpInstallStep2": { "message": "<span class=\"step-num\">2.</span>（選用）安裝本機服務：按兩下專案根目錄的 <code>安裝本地服務.bat</code>，依提示貼上擴充功能 ID。" },
+  "helpInstallStep3": { "message": "<span class=\"step-num\">3.</span>重新啟動 Chrome，開啟任一支援的 AI 網站。" },
+  "usage": { "message": "使用方式" },
+  "helpUsageIntro": { "message": "頁面右下角會顯示一個 📁 按鈕（快速鍵 <kbd>Ctrl+Shift+F</kbd>）：" },
+  "helpFileTree": { "message": "<span class=\"step-num\">檔案樹</span>點擊 📁 開啟側邊欄，瀏覽目錄並點擊檔案以插入聊天輸入框。" },
+  "helpAtCommand": { "message": "<span class=\"step-num\">@ 指令</span>在聊天輸入框輸入 <code>@檔名</code> 或 <code>@資料夾名稱</code>，從下拉清單選擇即可插入。" },
+  "twoModes": { "message": "兩種模式" },
+  "helpNativeMode": { "message": "<strong>本機服務模式</strong>（建議）：安裝後全自動，開啟網頁即可使用。需要 Node.js。" },
+  "helpBrowserMode": { "message": "<strong>瀏覽器模式</strong>：無需安裝。開啟側邊欄後選擇資料夾即可；每次重新啟動瀏覽器後需再次授權。" },
+  "keyboardShortcuts": { "message": "快速鍵" },
+  "helpShortcutToggle": { "message": "<kbd>Ctrl+Shift+F</kbd> — 開啟或關閉檔案面板" },
+  "helpShortcutSearch": { "message": "<kbd>@</kbd> — 在聊天輸入框中啟動檔案搜尋" },
+  "helpShortcutMove": { "message": "<kbd>↑</kbd> <kbd>↓</kbd> — 在搜尋結果中移動" },
+  "helpShortcutSelect": { "message": "<kbd>Enter</kbd> 或 <kbd>Tab</kbd> — 選取檔案" },
+  "helpShortcutClose": { "message": "<kbd>Esc</kbd> — 關閉搜尋" },
+  "uninstall": { "message": "解除安裝" },
+  "helpUninstallExtension": { "message": "擴充功能：從 <code>chrome://extensions</code> 移除。" },
+  "helpUninstallNative": { "message": "本機服務：按兩下 <code>卸載本地服務.bat</code>。" }
+}

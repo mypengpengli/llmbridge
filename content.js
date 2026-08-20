@@ -229,7 +229,7 @@
         fileAccess.listAllFiles(8);
         updateStatusDot();
         if (fileTree && fileTree.visible) {
-          fileTree.showToast('文件已变更，索引已更新');
+          fileTree.showToast(I18n.t('filesChanged'));
         }
       }
     });
